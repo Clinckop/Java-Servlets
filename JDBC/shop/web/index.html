@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <table align="center" class="table table-striped">
+            <thead align="center">
+                <tr>
+                    <td colspan="2">Select queries questions.</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.Display all the records of Product_Info</td>
+                </tr>
+                <tr>
+                    <td><a href="sq1">question1</a></td>
+                </tr>
+                <tr>
+                    <td>2. Display the Customer Firstname of those customers who have placed an Order.</td>
+                </tr>
+                <tr>
+                    <td><a href="sq2">question2</a></td>
+                </tr>
+                <tr>
+                    <td>3. Accept a Product Id from the user and display the Product Name, Product Supplier & List Price of those products.</td>
+                </tr>
+                <tr>
+                    <td><a href="sq3.html">question3</a></td>
+                </tr>
+                <tr>
+                    <td>4. Accept a QOH value from the user and display those records of the Inventories table where Quantity_on_Hand is less than the QOH value.</td>
+                </tr>
+                <tr>
+                    <td><a href="sq4.html">question4</a></td>
+                </tr>
+                <tr>
+                    <td>5. Accept CId from the user and display the records from Orders table where Customer Id matches with CId</td>
+                </tr>
+                <tr>
+                    <td><a href="sq5.html">question5</a></td>
+                </tr>
+            <thead align="center">
+                <tr>
+                    <td colspan="2">Update queries questions.</td><!--==================!!!!!!!!!!!!!!!!!=================-->
+                </tr>
+            </thead>
+            <tr>
+                    <td>1. Accept a l_price & m_price value from the user and update the Product_Info table as set the min_price to m_price value for those products where the list price is greater than (>) the l_price.</td>
+                </tr>
+                <tr>
+                    <td><a href="uq1.html">question1</a></td>
+                </tr>
+                <tr>
+                    <td>2. Accept a Cid and status value from the user and update the Order table as set the order_status as status value for orders where customer_id matches to Cid.</td>
+                </tr>
+                <tr>
+                    <td><a href="uq2.html">question2</a></td>
+                </tr>
+                <tr>
+                    <td>3. Accept a Pid and loc value from user and update the Inventories table as, set location to loc value where the Product_Id matches to Pid.</td>
+                </tr>
+                <tr>
+                    <td><a href="uq3.html">question3</a></td>
+                </tr>
+                <tr>
+                    <td>4. Accept a CName and email value from the user and update the Customer table as set Cust_email to email value where Cust_Fname matches CName.</td>
+                </tr>
+                <tr>
+                    <td><a href="uq4.html">question4</a></td>
+                </tr>
+                <tr>
+                    <td>5. Accept a Pid and Qty value from the user and update the Order_Items table as set Quantity to Qty value where Product_Id matched to Pid.</td>
+                </tr>
+                <tr>
+                    <td><a href="uq5.html">question5</a></td>
+                </tr>
+                <thead align="center">
+                <tr>
+                    <td colspan="2">Delete queries questions.</td><!--==================!!!!!!!!!!!!!!!!!=================-->
+                </tr>
+            </thead>
+            <tr>
+                    <td>1. Accept a DoB value from user and delete records from Customer table where Date_of_Birth matches DoB value.</td>
+                </tr>
+                <tr>
+                    <td><a href="dq1.html">question1</a></td>
+                </tr>
+                <tr>
+                    <td>2. Accept a Loc value from the user and delete records from Inventories table where location matches Loc value.</td>
+                </tr>
+                <tr>
+                    <td><a href="dq2.html">question2</a></td>
+                </tr>
+                <tr>
+                    <td>3. Accept a tot value from the user and delete records from Order table where Total is less than (<) the tot value.</td>
+                </tr>
+                <tr>
+                    <td><a href="dq3.html">question3</a></td>
+                </tr>
+                <tr>
+                    <td>4. Accept a Sup_name from the user and delete records from the Product_Info table, where Supplier_Name matches Sup_name.</td>
+                </tr>
+                <tr>
+                    <td><a href="dq4.html">question4</a></td>
+                </tr>
+                <tr>
+                    <td>5. Accept U_price & qty from user and delete records from Order_item table where Unit_price matches u_price as well as Quantity matches qty value.</td>
+                </tr>
+                <tr>
+                    <td><a href="dq5.html">question5</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
